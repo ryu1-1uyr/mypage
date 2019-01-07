@@ -14,7 +14,7 @@ export default new Router({
       component: HelloWorld
     },
     {
-      path: '/hoge',
+      path: '/index',
       name: 'index',
       component: index
     },

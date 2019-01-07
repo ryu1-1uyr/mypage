@@ -1,5 +1,9 @@
 <template>
   <div id="app">
+    <a href="/#/index">index</a>
+    <a href="/#/about">about</a>
+    <a href="/#/">HW</a>
+
     <router-view/>
   </div>
 </template>
