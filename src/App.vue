@@ -1,8 +1,8 @@
 <template>
   <div id="app">
-    <a href="/#/index">index</a>
+    <a href="/#/lang">lang</a>
     <a href="/#/about">about</a>
-    <a href="/#/">HW</a>
+    <a href="/#/">index</a>
 
     <router-view/>
   </div>
