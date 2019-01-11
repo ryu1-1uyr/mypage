@@ -1,6 +1,7 @@
 <template>
   <div class="hello">
     <p>{{msg}}</p>
+    <img :src=img />
   </div>
 </template>
 
@@ -9,7 +10,8 @@ export default {
   name: 'index',
   data () {
     return {
-      msg: 'index'
+      msg: '沖縄で専門学生してます。javascriptが好き。メモ代わりにつぶやく事多いです。人間初見プレイ中。',
+      img: 'https://pbs.twimg.com/profile_images/966496730387640320/EzKcwnJo_400x400.jpg'
     }
   }
 }

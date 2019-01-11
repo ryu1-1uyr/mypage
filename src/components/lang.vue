@@ -1,6 +1,17 @@
 <template>
   <div class="hello">
-    <h1>{{ msg }}</h1>
+    <h2>すこしわかり</h2>
+    <ul>
+      <li v-for="lang in SpecialtyLang">
+        {{lang}}
+      </li>
+    </ul>
+    <h2>微妙にわかり</h2>
+    <ul>
+      <li v-for="lang in UsuallyLang">
+        {{lang}}
+      </li>
+    </ul>
   </div>
 </template>
 
@@ -9,7 +20,9 @@ export default {
   name: 'lang',
   data () {
     return {
-      msg: 'langage pages'
+      SpecialtyLang : ['日本語','JavaScript','Ruby','HTML5 CSS3'],
+      UsuallyLang : ['うちなーぐち','PHP','Python3']
+
     }
   }
 }
