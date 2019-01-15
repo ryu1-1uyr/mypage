@@ -23,4 +23,11 @@ export default {
   color: #2c3e50;
   margin-top: 60px;
 }
+  a {
+    text-decoration: none;
+    color: rgba(53,53,53,0.97);
+  }
+  a:hover {
+    color: rgba(65,67,187,0.97);
+  }
 </style>
