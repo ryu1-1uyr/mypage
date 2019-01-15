@@ -4,10 +4,8 @@
 
     <p>純潔の沖縄人。</p>
     <p>2017年の2月ごろからコード書き始めましたひよっこです</p>
+    <p>{{msg}}</p>
 
-    <div>
-      <p>{{msg}}</p>
-    </div>
 
     <h2>link</h2>
 
@@ -32,7 +30,7 @@ export default {
   name: 'about',
   data () {
     return {
-      msg: '沖縄で専門学生してます。javascriptが好き。メモ代わりにつぶやく事多いです。人間初見プレイ中。',
+      msg: '沖縄で専門学生してます。javascriptが好き。人間初見プレイ中。',
       img: 'https://pbs.twimg.com/profile_images/966496730387640320/EzKcwnJo_400x400.jpg'
     }
   }

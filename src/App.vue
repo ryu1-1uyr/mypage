@@ -4,7 +4,7 @@
     <a href="/#/lang">lang</a>
     <a href="/#/history">history</a>
 
-    <router-view/>
+    <router-view v-cloak />
   </div>
 </template>
 
@@ -30,4 +30,13 @@ export default {
   a:hover {
     color: rgba(65,67,187,0.97);
   }
+  [v-cloak] {
+    animation: showComponents 0.5s easa 0.2s forwards;
+  }
+
+  @keyframes showComponents {
+    from  {opacity: 0}
+    to    {opacity: 1}
+  }
+
 </style>
