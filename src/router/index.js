@@ -3,6 +3,8 @@ import Router from 'vue-router'
 import lang from '@/components/lang'
 import index from '@/components/index'
 import about from '@/components/about'
+import history from '@/components/history'
+
 
 Vue.use(Router)
 
@@ -23,5 +25,10 @@ export default new Router({
       name: 'about',
       component: about
     },
+    {
+      path: '/history',
+      name: 'history',
+      component: history
+    }
   ]
 })

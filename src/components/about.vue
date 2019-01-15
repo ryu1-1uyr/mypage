@@ -5,25 +5,22 @@
     <p>純潔の沖縄人。</p>
     <p>2017年の2月ごろからコード書き始めましたひよっこです</p>
 
+    <div>
+      <p>{{msg}}</p>
+    </div>
+
     <h2>link</h2>
 
     <p>twitter</p>
-    <a href="https://www.google.co.jp/"  Target="_blank">
-      <img src="./../assets/logo.png" />
+    <a href="https://www.google.co.jp/"  Target="_blank" >
+      <img src="./../assets/Twitter_Logo_WhiteOnBlue.png" class="logo"/>
     </a>
 
     <p>GitHub</p>
-    <a href="">
-      <img src="" alt="">
+    <a href="https://github.com/s17001" Target="_blank" >
+      <img src="./../assets/GitHub-Mark-32px.png" class="logo"/>
     </a>
 
-    <h3>LTとかした勉強会</h3>
-    <ul>
-      <li>1</li>
-      <li>2</li>
-      <li>3</li>
-      <li>456</li>
-    </ul>
 
 
 
@@ -35,7 +32,8 @@ export default {
   name: 'about',
   data () {
     return {
-      msg: 'about'
+      msg: '沖縄で専門学生してます。javascriptが好き。メモ代わりにつぶやく事多いです。人間初見プレイ中。',
+      img: 'https://pbs.twimg.com/profile_images/966496730387640320/EzKcwnJo_400x400.jpg'
     }
   }
 }
@@ -56,5 +54,9 @@ li {
 }
 a {
   color: #42b983;
+}
+.logo{
+  width: 32px;
+  height: 32px;
 }
 </style>
