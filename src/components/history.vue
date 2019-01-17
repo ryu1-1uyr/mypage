@@ -3,22 +3,28 @@
     <h1>僕がやったこととか</h1>
     <h2>LTしたやつ</h2>
     <ul>
-      <li>1</li>
-      <li>2</li>
-      <li>3</li>
+      <li v-for="LT in LTList">
+        {{LT}}
+      </li>
     </ul>
     <h2>作ったもの</h2>
     <ul>
-      <li>1</li>
-      <li>2</li>
-      <li>3</li>
+      <li v-for="making in Makinglist">
+        {{making}}
+      </li>
     </ul>
   </div>
 </template>
 
 <script>
     export default {
-        name: "sonota"
+      name: "sonota",
+      data () {
+          return {
+            LTList : [1,2,3],
+            Makinglist : [1,2,3]
+          }
+    },
     }
 </script>
 
