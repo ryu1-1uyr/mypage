@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+    <a href="/#/">top</a>
     <a href="/#/about">about</a>
     <a href="/#/lang">lang</a>
     <a href="/#/history">history</a>
