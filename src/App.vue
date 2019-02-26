@@ -1,9 +1,9 @@
 <template>
   <div id="app">
-    <a href="/#/">top</a>
-    <a href="/#/about">about</a>
-    <a href="/#/lang">lang</a>
-    <a href="/#/history">history</a>
+    <a href="/mypage/dist/#/">top</a>
+    <a href="/mypage/dist/#/about">about</a>
+    <a href="/mypage/dist/#/lang">lang</a>
+    <a href="/mypage/dist/#/history">history</a>
 
     <router-view v-cloak />
   </div>
