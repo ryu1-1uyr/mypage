@@ -9,6 +9,7 @@
     </ul>
     <p>スライドだいたいここにあります</p>
     <iframe src="https://www.slideshare.net/iharyuuicih/slideshelf" width="615px" height="470px" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:none;" allowfullscreen webkitallowfullscreen mozallowfullscreen></iframe>
+    <p><a href="https://speakerdeck.com/s17001">もしくはこっちです</a></p>
     <h2>作ったもの</h2>
     <ul>
       <li v-for="making in Makinglist">
